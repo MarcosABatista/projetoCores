@@ -1,0 +1,86 @@
+/*======= corpo ========== */
+body {
+  margin: 0;
+  padding: 0;
+}
+/*======= cabeçalho =========*/
+
+.projeto .aprender {
+  font-family: cursive;
+}
+.projeto {
+  border-radius: 1rem;
+  background: #e6dddd;
+  margin: 0 2rem 0 2rem;
+}
+#cor {
+  margin-top: 0px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 0px;
+  text-align: center;
+}
+#cores {
+  width: auto;
+  height: 15rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+/*==== buttons ========*/
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+button {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.preto {
+  background-color: #000;
+  color: white;
+}
+.azul {
+  background-color: blue;
+}
+.verde {
+  background-color: green;
+}
+.amarelo {
+  background-color: yellow;
+}
+.vermelho {
+  background-color: red;
+}
+/*====== hover =====*/
+.black:hover {
+  background: #000;
+  color: white;
+  transition: 0.3s;
+}
+.blue:hover {
+  background: blue;
+  transition: 0.3s;
+}
+.green:hover {
+  background: green;
+  transition: 0.3s;
+}
+.yellow:hover {
+  background: yellow;
+  transition: 0.3s;
+}
+.red:hover {
+  background: red;
+  transition: 0.3s;
+}
+/*==== limpar =====*/
+#clean {
+  width: 100%;
+  text-align: center;
+}
+.limpar {
+  width: 20%;
+}
